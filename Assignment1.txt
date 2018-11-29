@@ -1,0 +1,12 @@
+1)	Select Queries
+	1.	Display all departments from department table.
+			> DESC DEPARTMENTS;
+			> SELECT * FROM DEPARTMENTS;
+ 	2.	Display all employees from employee table.
+			> SELECT * FROM EMPLOYEES;
+	3.	Select the employee in department 30.
+			> SELECT EMPLOYEE_ID,FIRST_NAME,LAST_NAME,SALARY,DEPARTMENT_ID
+    			> FROM EMPLOYEES
+    			> WHERE DEPARTMENT_ID=30;
+	4.	List the names, numbers and departmentno of all clerks.
+			
